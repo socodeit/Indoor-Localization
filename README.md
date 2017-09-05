@@ -1,3 +1,8 @@
-ref.csv    : For training   
-test.csv   : For validation    
-fmDoor_log : For storing data related FM RSSI over different frequency and RSSIs while passing though door    
+====== DATA ======    
+ref.csv    				: For training   
+test.csv   				: For validation  
+Linearvalidation.csv	: File used to test the  accuracy of model   
+Lineartraining.csv		: File used as reference ( RSSI Map ) to calculate new coordinates	  
+data.mat				: Matlab data file with all above data imported into matlab   
+
+
